@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.section {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+#section1 {
+    background-color: #ff5733;
+}
+
+#section2 {
+    background-color: #33c4ff;
+}
+
+#section3 {
+    background-color: burlywood;
+}
+
+#section4 {
+    background-color: #f1c40f;
+}
